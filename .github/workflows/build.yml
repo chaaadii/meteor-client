@@ -57,5 +57,5 @@ jobs:
           cd .github/devbuilds
           npm start ${{ github.ref_name }} https://api.github.com/repos/MeteorDevelopment/meteor-client/compare/${{ github.event.before }}...${{ github.event.after }} true
         env:
-          SERVER_TOKEN: "1161849554266767412"
+          SERVER_TOKEN: "1161849554266767412
           DISCORD_WEBHOOK: "https://discord.com/api/webhooks/1161849583274561698/7u1tAasTxeNPovUVpzbRYNJggS0RmOIDO3VhPDPy7n2bN-ckFn-dYxjGdDzHtgCh7ZkD"
